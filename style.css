@@ -6,3 +6,26 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+/* Navbar */
+.navbar {
+  background: #131313;
+  padding: 0.8rem 4rem;
+}
+#navbarSupportedContent .nav-item a {
+  color: #f1f1f1;
+  margin: 0 0.3rem;
+}
+#navbarSupportedContent .nav-item a:hover {
+  color: #00bf85;
+}
+#navbarSupportedContent button {
+  outline: none;
+  border-radius: 1rem;
+}
+.navbar .navbar-brand {
+  letter-spacing: 0.1rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #f1f1f1;
+}

@@ -11,6 +11,7 @@ body {
 .navbar {
   background: #131313;
   padding: 0.8rem 4rem;
+  z-index: 100;
 }
 #navbarSupportedContent .nav-item a {
   color: #f1f1f1;
@@ -29,3 +30,17 @@ body {
   font-weight: 800;
   color: #f1f1f1;
 }
+
+/* Hero  */
+.hero video {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* About  */
+/* Discover  */
+/* Service  */
+/* Sign up  */
+/* Footer  */

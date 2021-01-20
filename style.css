@@ -82,6 +82,17 @@ body {
   border-radius: 1rem;
 }
 /* Discover  */
+
+.discover h6 {
+  color: #00bf85;
+  letter-spacing: 1px;
+}
+.discover p {
+  letter-spacing: 0.1px;
+}
+.discover a {
+  border-radius: 1rem;
+}
 /* Service  */
 /* Sign up  */
 /* Footer  */

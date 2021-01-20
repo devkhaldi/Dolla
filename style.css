@@ -5,6 +5,10 @@
   --green-1: #2fbbb5;
   --green-2: #00bf6d;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins', sans-serif;
 }

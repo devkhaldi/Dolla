@@ -85,7 +85,9 @@ body {
   border-radius: 1rem;
 }
 /* Discover  */
-
+.discover {
+  padding: 3rem;
+}
 .discover h6 {
   color: var(--green-1);
   letter-spacing: 1px;
@@ -97,5 +99,31 @@ body {
   border-radius: 1rem;
 }
 /* Service  */
+.services {
+  background: #000;
+  color: white;
+  padding: 3rem 8rem;
+}
+.services .header {
+  text-align: center;
+  font-weight: 500;
+  margin: 2rem;
+}
+.services .cards {
+  display: flex;
+  align-content: space-between;
+  padding: 1rem 5rem;
+}
+.services .cards .service {
+  background: white;
+  color: #000;
+  margin: 0 0.4rem;
+  border-radius: 0.5rem;
+}
+.services .cards .service h5 {
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
 /* Sign up  */
 /* Footer  */

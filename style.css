@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --green-1: #2fbbb5;
+  --green-2: #00bf6d;
+}
+
+.btn-success:hover {
+  background: var(--green-1);
+  color: #000;
 }
 body {
   font-family: 'Poppins', sans-serif;
@@ -12,26 +19,23 @@ body {
   background: #131313;
   padding: 0.8rem 4rem;
   z-index: 100;
-  border-bottom: solid 2px #00bf85;
+  /* border-bottom: solid 2px #00bf85; */
 }
 #navbarSupportedContent .nav-item a {
   color: #f1f1f1;
   margin: 0 0.3rem;
 }
 #navbarSupportedContent .nav-item a:hover {
-  color: #00bf85;
+  color: var(--green-1);
 }
 #navbarSupportedContent button {
   outline: none;
   border-radius: 1rem;
 }
 .navbar .navbar-brand {
-  letter-spacing: 0.1rem;
   font-size: 1.3rem;
-  font-weight: 800;
   color: #f1f1f1;
 }
-
 /* Hero  */
 .hero {
   width: 100%;
@@ -46,7 +50,6 @@ body {
   object-fit: cover;
   pointer-events: none;
 }
-
 .hero .hero-content {
   position: absolute;
   top: 50%;
@@ -71,7 +74,7 @@ body {
   color: white;
 }
 .about h6 {
-  color: #00bf85;
+  color: var(--green-1);
   letter-spacing: 1px;
 }
 .about p {
@@ -84,7 +87,7 @@ body {
 /* Discover  */
 
 .discover h6 {
-  color: #00bf85;
+  color: var(--green-1);
   letter-spacing: 1px;
 }
 .discover p {

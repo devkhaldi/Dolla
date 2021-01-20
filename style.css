@@ -5,11 +5,6 @@
   --green-1: #2fbbb5;
   --green-2: #00bf6d;
 }
-
-.btn-success:hover {
-  background: var(--green-1);
-  color: #000;
-}
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -17,9 +12,9 @@ body {
 /* Navbar */
 .navbar {
   background: #131313;
-  padding: 0.8rem 4rem;
+  padding: 0.5rem 4rem;
   z-index: 100;
-  /* border-bottom: solid 2px #00bf85; */
+  border-top: solid 2px var(--green-1);
 }
 #navbarSupportedContent .nav-item a {
   color: #f1f1f1;
@@ -29,12 +24,18 @@ body {
   color: var(--green-1);
 }
 #navbarSupportedContent button {
+  font-size: 0.8rem;
+  color: white;
+  background: var(--green-1);
   outline: none;
-  border-radius: 1rem;
+  padding: 0.3rem 2rem;
+  border-radius: 2rem;
 }
 .navbar .navbar-brand {
   font-size: 1.3rem;
-  color: #f1f1f1;
+  color: var(--green-1);
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 /* Hero  */
 .hero {
@@ -54,6 +55,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 60%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
@@ -64,8 +66,13 @@ body {
   font-size: 1.1rem;
   letter-spacing: 0.1px;
 }
-.hero a {
-  border-radius: 1rem;
+.hero a,
+.about a,
+footer button.btn {
+  background: var(--green-1);
+  padding: 0.5rem 2rem;
+  color: black;
+  font-size: 0.8rem;
 }
 
 /* About  */
@@ -81,9 +88,7 @@ body {
   color: #dddddd;
   letter-spacing: 0.1px;
 }
-.about a {
-  border-radius: 1rem;
-}
+
 /* Discover  */
 .discover {
   padding: 3rem;
@@ -95,9 +100,7 @@ body {
 .discover p {
   letter-spacing: 0.1px;
 }
-.discover a {
-  border-radius: 1rem;
-}
+
 /* Service  */
 .services {
   background: #000;
@@ -106,7 +109,6 @@ body {
 }
 .services .header {
   text-align: center;
-  font-weight: 500;
   margin: 2rem;
 }
 .services .cards {
@@ -119,6 +121,7 @@ body {
   color: #000;
   margin: 0 0.4rem;
   border-radius: 0.5rem;
+  border-bottom: solid 8px var(--green-1);
 }
 .services .cards .service h5 {
   margin: 1rem 0;
@@ -136,7 +139,3 @@ body {
 .signup p {
   letter-spacing: 0.1px;
 }
-.signup a {
-  border-radius: 1rem;
-}
-/* Footer  */

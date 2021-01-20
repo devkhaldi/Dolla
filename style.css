@@ -111,7 +111,7 @@ body {
 }
 .services .cards {
   display: flex;
-  align-content: space-between;
+  flex-wrap: nowrap;
   padding: 1rem 5rem;
 }
 .services .cards .service {
@@ -126,4 +126,17 @@ body {
 }
 
 /* Sign up  */
+.signup {
+  padding: 5rem 3rem;
+}
+.signup h6 {
+  color: var(--green-1);
+  letter-spacing: 1px;
+}
+.signup p {
+  letter-spacing: 0.1px;
+}
+.signup a {
+  border-radius: 1rem;
+}
 /* Footer  */

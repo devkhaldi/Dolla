@@ -145,3 +145,19 @@ footer button.btn {
 .signup p {
   letter-spacing: 0.1px;
 }
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+  .services {
+    padding: 2rem;
+  }
+  .services .cards {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .services .cards .service {
+    margin: 0.5rem;
+  }
+}
